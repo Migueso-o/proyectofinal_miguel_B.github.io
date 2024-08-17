@@ -1,0 +1,50 @@
+.hero {
+    background-image: url('/path-to-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .cart {
+    padding: 20px;
+  }
+  
+  .cart-item {
+    margin-bottom: 10px;
+  }
+  
+  .cart-icon {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-icon span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .btn-start, .btn-continue {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
